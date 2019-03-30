@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D75964CA-BE2E-4692-BBCB-E40A3109CFA3}</ProjectGuid>
+    <ProjectGuid>{7D6A35CC-6018-45C6-BB2C-1BB1C2CE6EE2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>accountingApp</RootNamespace>
-    <AssemblyName>accountingApp</AssemblyName>
+    <RootNamespace>accountingGreeting</RootNamespace>
+    <AssemblyName>accountingGreeting</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
