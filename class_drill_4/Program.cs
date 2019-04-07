@@ -22,18 +22,19 @@ namespace class_drill_4
             try
             {
                 int num_1 = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Choose as second number?: ");
+                Console.WriteLine("Would you like to choose a second number?");
+                Console.WriteLine("Please type Y for yes or N for n");
+
                 string userChoice = Console.ReadLine();
                 userChoice = userChoice.ToUpper();
                 if (userChoice == "Y")
                 {
+                    Console.WriteLine("Please choose a second number: ");
                     int num_2 = Convert.ToInt32(Console.ReadLine());
-
                     calculator_4.Exponent(num_1, num_2);
                 }
                 else if (userChoice == "N")
                 {
-                    Console.WriteLine("Please choose a second number: ");
                     calculator_4.Exponent(num_1);
                 }
                 else
