@@ -28,6 +28,29 @@ namespace class_drill_7
                 }
             }
             while (userChoice != "Y" && userChoice != "N");
-        }   
+        }
+
+        public static bool operator ==(Employee employee_1, Employee employee_2)
+        {
+            if (employee_1.Id == employee_2.Id)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public static bool operator !=(Employee employee_1, Employee employee_2)
+        {
+            if (employee_1.Id != employee_2.Id)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }    
 }
