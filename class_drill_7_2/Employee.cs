@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace class_drill_7
 {
-    public class Employee : Person, IQuittable
+    public class Employee<T> : Person, IQuittable
     {
+        public List<T> things { get; set; }
         public int Id { get; set; }
         public bool IsWorking { get; set; }
 
@@ -30,27 +31,27 @@ namespace class_drill_7
             while (userChoice != "Y" && userChoice != "N");
         }
 
-        public static bool operator ==(Employee employee_1, Employee employee_2)
-        {
-            if (employee_1.Id == employee_2.Id)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
-        public static bool operator !=(Employee employee_1, Employee employee_2)
-        {
-            if (employee_1.Id != employee_2.Id)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
+        //public static bool operator ==(Employee employee_1, Employee employee_2)
+        //{
+        //    if (employee_1.Id == employee_2.Id)
+        //    {
+        //        return true;
+        //    }
+        //    else
+        //    {
+        //        return false;
+        //    }
+        //}
+        //public static bool operator !=(Employee employee_1, Employee employee_2)
+        //{
+        //    if (employee_1.Id != employee_2.Id)
+        //    {
+        //        return true;
+        //    }
+        //    else
+        //    {
+        //        return false;
+        //    }
+        //}
     }    
 }
