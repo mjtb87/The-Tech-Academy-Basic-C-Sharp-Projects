@@ -23,7 +23,7 @@ namespace class_drill_4
             {
                 int num_1 = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Would you like to choose a second number?");
-                Console.WriteLine("Please type Y for yes or N for n");
+                Console.WriteLine("Please type Y for yes or N for no.");
 
                 string userChoice = Console.ReadLine();
                 userChoice = userChoice.ToUpper();
