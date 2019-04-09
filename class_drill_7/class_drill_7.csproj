@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3BDA0CE9-AD40-495E-BDFF-EE1D2508CFBF}</ProjectGuid>
+    <ProjectGuid>{2A8743A1-6262-418D-BB8A-9E4EBB82D2FB}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>class_drill_7</RootNamespace>
     <AssemblyName>class_drill_7</AssemblyName>

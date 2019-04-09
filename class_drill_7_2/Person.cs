@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace class_drill_7
+namespace class_drill_7_2
 {
     public abstract class Person
     {
