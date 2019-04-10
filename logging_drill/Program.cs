@@ -34,11 +34,14 @@ namespace logging_drill
             {
                 Console.WriteLine(ex.Message);
             }
-            finally
-            {
-                Console.ReadLine();
-            }
+         
             Console.WriteLine("Thanks... foolish mortal.");
+            Console.WriteLine("Here's your reciept: ");
+
+            string logFile= File.ReadAllText(@"C:\Users\mjtb8\Documents\C#\C# scrap\numbers_log.txt");
+
+            Console.WriteLine(logFile);
+            Console.ReadLine();
         }
     }
 }
